@@ -1,0 +1,140 @@
+<header>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</header>
+<main class="cv">
+    <section class="about-me">
+        <h1>Khatkov Dmitriy</h1>
+        <h5>Junior Front-end Developer</h5>
+        <div class="underlined-grey"></div>
+        <article class="education">
+            <h2>Education</h2>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">05/2015</span> – <span class="strong">05/2018</span>
+                    </div>
+                    <div>
+                        <span class="strong">Belarusian State University of Informatics and Radioelectronics </span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Faculty:</span> Advanced training and retraining, Software of information systems
+                </div>
+            </div>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">05/2013 – 06/2015</span>
+                    </div>
+                    <div>
+                        <span class="strong">Belarusian State University of Informatics and Radioelectronics</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Faculty</span>: Faculty of Radio Engineering
+                </div>
+            </div>
+        </article>
+        <article class="experience">
+            <h2>About Me</h2>
+            <div class="description">
+
+                <div class="description__item2">
+                    <b>About:</b> I am 34 years old and work as an electronics engineer. I love learning new things. I really need classes in which I can develop throughout my life. My goal is to gain knowledge in front-end development.<br>
+                    <h1>My strengths:</h1>
+                    <uL>
+                        <li>Quick learner</li>
+                        <li>Diligence</li>
+                        <li>Team playing</li>
+                    </uL>
+                </div>
+            </div>
+        </article>
+
+        <article class="referencies" style="padding-left: 20px;">
+            <h4>Code Examples</h4>
+            <p><code>
+                var Factorial = React.createClass({<br>
+                    render: function(){<br>
+                        var result = this.props.result || 1,<br>
+                            n = this.props.n;<br>
+                        if(!n){<br>
+                        return <span>{result}</span>
+                    }else{<br>
+                        return <Factorial n={n - 1} result={result*n}/><br>
+                        }<br>
+                    }<br>
+                  });<br>
+                  module.exports = Factorial;<br>
+            </code></p>
+        </article>
+
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li class="git-link">
+                        <a href="https://github.com/ipolit11"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///8bHyMAAAAYHCAQFRoVGh4RFhsGDhQAAAYAAAkACBD5+fkTGBwABw9YWlwKEBafoKE2OTze3t/Dw8SOj5Dv7+8oLC+mp6jQ0dEeIiaAgYPP0NDs7OzKystQUlSUlZa1trd1d3iJiotqa23j4+Ozs7RFSEphY2W+v79xcnRTVVcwMzZLTVA/QkSam5wnKy65+GP9AAANBUlEQVR4nO1d6XrqKhTVTWJMosY4a+tUx1Zt3//tbqKxGoWwQQj0fmf9PcfWVWCPi02loh39znTR7i1XrW08GI+r4/Eg3rZWy157M+309f96rejsv1enOgD4Tc+pNQipXkBIo+Z4gZ/8C8Sr+aJj+ovKYL2YnJLv33TcajFcJ0j+32my+Us018MVQN3jccvx9JKl3g3/Astwv3TBdwTI3eD4UFvuQ9MUihBuWgAR4XNhgkQAXxtL7U+4aEFdbvHyqNXha2HfSo6WACroZSQBliPTlO4RDg8QKaN3QQSDoS0LuZ6AL2I3sXB9mKxNk0sw2oGngd4FHuxMb9bRTOHpo8GB45tJfkeoaeWXogFbU+u4bpXAL0UNWiaCnXCpeX/ew4Fl6Xa1rdG+0OBBu1R+owGUyi8FDMozOeEn6PB/PLjwWdJW3dfL3aA3eLAvgV+4g1eSh9dAYKd9GaeeqQW8wAumeglODC7gBQQmGvm9x75hfin8+F0XwS40TLM7owFdPQR7xnfoFQR6Ogi2ynfybEBLOb/+wawNfYQ3UFyu6pSURuBRA6X5RteaI3gDUWlvNjYdwRtgqIrgt50EE4rfagj2bCWYUFTiNT7sJZhQ/PifE1RB0eItesGrG9VaI3PDa+bGUjeRxytOo/sXCCYUpV1/528QTChKBnB9C0M1OgjIheED24JtNmoDGYItu9KlYngS+aL1jjAPcbf4R8zoDaIG9f3PWJkrCIhV4OLiqlojVaT5gVPSn6HhnSVwxaXMRixCcML5YbP926i76bUcWfkTHm4AcPwYdkejt2HxyfEFSsVTziGE38r6etiCuj6vQgIY9G497q/i3wTogn/oFe8+4uX+9+aoqVtag1ovF60siv/yxMO2bXacL+w9bodUUaP8SDpwfDSPIWdveTscwT3PUVB2Q9gO6ko5RrCiBJstzqnH9RdDrqMA6ueGjjqODqyoaqghpzNEALNPP3mHymFFSG0IlPBz4YuRLKx528v75BN84wYzPlMVEU7opXHiOlHQPPu0DPVU+d2grzn8sG1ik7u/+HKGH64IAQokSutZfo+7UcrLO7SWvfZw0Z1OR4lfm073m+H3ZHUcp1wf4oaoUFay4rlfl5tltPnxaPFe33vZVj1Lt0/L9r5T8P/fR5ve7icJVzKaBHaFqV67yf12HN0Nzx6nX2LM+RFLcNNAJJ6gbxmEb+2VB/WIeB4nfkYkBBxjs+T7bofrdN6qcW8qrJlYbz59rp3gmprE2CyLfgCmMuMpKDPLA/EFoUh2y/OoKdimtAwQvs9lerMEI0zaW1+URoeCGKE3KzD2W0yWUIryiokjQg5SO7I+jVpCgRxFB1qoRWAt4hGV6BlmiMm4WYuIW8IXaugqgFpD1iLucAUJs+dwi5Jl0X02wpmeUd+UzeoeGFtaZfjECbIU0VQkD5AD8mbcUxmigopI2R8uDehvSYlOeenzL2rqJWV4oBt+/nPb9IAWp9cNMLuCW0O6wj08fhTpKlIIls+Vooeukzw5jCX+/qBJd4FzFimihyQKfYKrRk2NyNd8sDWcanIOpGqIn8AxTBkuch9FhXu/nzV263ElcBc3nyaKrP7TX6dExEILcb9NN3WRT5orY4QNgQtXufBSZJPKiAKUARs8p7jfpiKb1OUUEzVDxCTebVMhE2V4Oscnvjdy57hF3P3cILszENW2DHdO30V/yBWSA2gBv3V0BXGvnxFQ6JlzhTfgneLviUInTtUI0Z7Tjj56QX5TKG7L6vZHMZhW3DDnNqAyOKvsE+i/idH0/g7oL5z14/FeVFLGqRzoRcwKUgtsyBatOL+5LKBPYtZjwRbZrDCkF3wizWl2rE7IaPa59GEMWJ/ons7/HbvkTaONwzywgc3Z1KD9fWFvtWR8IE/W2edjw26LNil+m56D7zkyWDfbv38EkmEzTRSwEY3ZrtojcF22S1SD7OZY4+4v+MY5/XMuhFzvWypiBXgy5t91wccHfKFQqXjHMuyjnUVgPLnPA8uwg15us63fZ2CbwdPKApn+mpVgPANZAPUXCD1jxtCyCbgTXPCdhJo9bPxjRXp/AzJu83qVJdbh2zJMNAPSITrLygp548U2hm2c/UiCmhayq0q/gmAOyAJho1XZimRaFgHJkGwrMZbh39ylJK784AhaxxBpaaqDyhjL0KrUAq87GeMZWlTDSIGtEI4rSILWxTTojiB+DU2OZKYAqYYV2aVGhbPPwKqjxpUBkiFF7GcUA6SXG6D94R/NgBN/iI1pHpVwhoEtviQxDTYubTCvaRgBtviSxKXY3MKywBRbqa+t0PmhZUENNmhL8kNsjm9R9zAFtlKf5PjYOo1l7qKKNJDNNrrWZpcxRSvx/AV+1A7/lnSJwFZ50yIoXhBlk6nBtgTThAGvMLIpMkVr9tNl+XN6oYqIIDa9/oLtH1YJMU3sF/irM2n/UEDVZk0SjNXTXERO6ENbDbRMQpcBepOeMyK8cpo4ppllwKu2z9ZRRD9rSYcNf7XgcrDwDC3pdGM73NVrQoQ2pra02D7QliPTtaG1iZa4RIHbIdn3FbkSZEPkNsc/lJLpS0WG6VqwiPxZZHcLkhXqRS6umT+JE4GBYtfKC7Z8nKJo+EspELrbdZVt4+9bVM1nGKgJMxl+yxJCU62Jb7SRiJhFdrcav4F0TWQcYPRlkKDYYtySIYG7a1V172bIYCzyaN9dZUnk/mHVpJZWbAL33fcUu+hcJaYSxYngStxZDM742ieKvhGvKDhiPOfYhO5yV9PxxQYozgVHjOf0oviC25WiX/pGFX4OJq+PEdymit+TwmAnSvAh+hK5BJ6h1DvP77HweNuHyQ+C1vTyI2alpVJ7iWffHvud6PrcHZySBmSEK4kp/0+NJPwd8DsQmJWglNqAxF+f0u4cSD1i7MBEcyA+jaWeaaDcQ2OkUI3AB6g32RmkBx8aOU63ks9HU/q5dFsD2/lm391874B91gNYanKOm4P02640XQWt5HZXAt7P2H/NCE4b5QvZmYD889/UehKlPEBym3kUs61Row67hUKSo/kPcF5oKARdK0op1zwUD7+LDr1Th+23Cr3G+2LZhOClGf2M4jxlKN3jqNORV+h5G02Ar15XPioPR8PPHwDk+Ec2WMoYygza4KG01v/h1eUaAUAwmwyna6FN2x8t5qt0OPvL7BLUZozfQvP63iG/o8MBovRIauenb7Zofov0NQF1D/OwxU20Sp37EGGHBGngHDxBxc8QsmdBM8ZD+tWcu0OWZIkjtEs/BHPwIhTp0+itRzefC+I0RqIyuJOyF4cKu5yscmSe4gQhhRNu4YhU64tRfG+C9QRLvrqGqFqKX7ERaGMWovhtBGYmnH9KiZ9qNcULAMK1IgZ4f1tWXyDKuZglr6Ygc0tKrPLO/M3cCSysd2byn6wW71NHZhqRwKBfNhAKSuYOzB1gjl2QK8SNFXh8jAlnGZtazoMXuwy5q3zYoTMFwLz3xO6TQ27mQFEUUpNrwKFlsUzg3uxidqJIPffxBTuVkhxML1PSzAPboGa9nRfkZ/CMApbxk62HY+8yseBhDVzISj8fEuKwRS8zuLK3MfFCUCpIgD7+rAPxFC50D/D4pdwAYtkhIXghKBUiwkLWO6TPappuC8DLCmJJWghwmMsX3oREIU8QeYeU+ZYsTUPbX0y2lwfxoq+PxUt9xZceIRZ7S5b1HjAJGP8/7PcVVNpecRei7wGz/px6ezGvxG3i9pveNNd7cUZILfNAUGKaHF3ZATqHKckzlBujfqDVFYhOhak0w4bc1upTrY3DqkUqgCxDYStT/Avr+m7pyTKUVzDRDaq+txEkGb4iCKWnSKBrqrccQ3jpcus39Xc2Yz2SKCmGr6pe6FKrhh4xjQzD188MQ2zlR2317XsJhqDg8gBDEUh8+OwqJinOUAXBAk1gBHDs5Z5sDtdpG3AsKyIWZqjKrBeox9N+KATjeHucbeNxcH5nu/hl7SKIRt7qrMGGI9ohbqNWc93rkG3pF4MFGb7mJvLoCumSpEebCzEkam9+dETEgaUwdFXP6egf8FWiMhhGY/VBB16kWwJDmOkQ082xh1H6LVa0BFSNG3zG9Kk4aoZhQ1+1qH9CKSY0M2wOdMp2PzA7VStDAprn5Lw5/Caf9Gg3RL000n//ESEr18gQWmXcD+j6HNcoPT+DxzDSWsu8x7JYvKuJIYFdeXflR4UCeunXTAoZ+qTce0hDYG9VHQwjKH10TDhhXvSQHkvA7K7VYGfixuN6xYhxVDN0YWtq3l/ni8pRLUMXYpNv+IxalL2qkmHDLL8UndWTzVFnaSI42jDW6P0D6jn/KO2X88ODSBNW1kwX28R3N1yQ0isaZrdj7UBtbsEwnBvSW0pOZhnkY+P368/wYWf6+FGw3501Jz+vnJz1CaAOcBpatXw3hNN999WTs95vXrhW9A//8A//YAT/AUHC2k4Nf7i2AAAAAElFTkSuQmCC"
+                                style="width: 60px;"></a>
+                    </li>
+                    <li class="course-link">
+                        <a href="https://rs.school/js"> <img src="https://rs.school/images/rs_school_js.svg" style="width: 100px;"></a>
+                    </li>
+                    <li class="year">
+                        <span class="year-font">2022</span>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
+
+    <section class="about">
+        <h2 class="cosmos">About</h2>
+        <header class="header">
+            <figure class="photo">
+                <img src="img.jpg" alt="Dmitry Khatkov">
+            </figure>
+        </header>
+        <article class="contacts">
+            <h3 class="contacts__text">contact me</h3>
+            <div class="underlined"></div>
+            <ul class="phone">
+                <li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
+                <li class="phone_number">Discord : @ipolit11</li>
+
+                <ul class="">
+                    <li class=""> Phone: +375(29)2768392</li><br>
+                    <li class=""> GitHub:ipolit11</li><br>
+                    <li class=""> Skype: ipolit111</li>
+                </ul>
+            </ul>
+        </article>
+        <article class="skills">
+            <h3 class="contacts__text">skills</h3>
+            <div class="underlined"></div>
+            <ul class="skills_list">
+                <li>HTML5</li>
+                <li>CSS3, SASS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>OOP</li>
+                <li>SQL</li>
+                <li>C#</li>
+                <li>NET Framework#</li>
+                <li>UML</li>
+
+                <li>English: A2</li>
+            </ul>
+        </article>
+        <div class="rss">
+            <img src="https://rs.school/images/rs_school_js.svg">
+        </div>
+
+
+
+    </section>
+
+
+
+
+</main>
